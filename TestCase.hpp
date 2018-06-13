@@ -74,6 +74,7 @@ public:
             std::string ans = getLine() + getFailHeader(total_tests)  + ss1.str() + getAnsAREEQUAL() + ss2.str() ;
             output << ans << std::endl;
         }
+        return *this;
     };
 
 
